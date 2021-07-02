@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+				*{text-align: center;}
+            	.container{ width:800px;margin:0 auto; background-color:#FFFFFF;  opacity: 0.;left: 30%;position: absolute;top:30%}/*设置中间黄色板块样式*/     
+				li{ list-style-type: none; z-index: 9999;}
+				#menu {  width: 98.6%; margin:10px auto;height: 65px; background-color:#FFFFFF; position: fixed;top:0px;left: 9.7px;opacity: 0.9;}/*菜单样式*/
+				#menu li{float:left; width: 100px;line-height:35px;text-align: center;position:relative;border:none;padding-left:90px;margin-right: 30px}/*菜单文字样式*/
+				#menu li a {font-size:20px; color:#000000;display:block;outline:0;text-decoration:none;}
+				#menu li:hover a {background-color:#C8DCC0;} /*导航栏文字颜色 */
+				#menu li:hover .dropdown_1column {left:85px;top:24px;}/*下拉菜单位置*/
+				.dropdown_1column{ margin: 0 auto;float: left;position: absolute;left: -999em;text-align:center;border-top: none;width:100px;z-index: 9999;}/* 下拉菜单边框颜色*/
+				#menu li:hover div a { font-size:17px;color:#000000;text-align:center;}/* 下拉菜单文字颜色*/
+				#menu li:hover div a:hover{color:aliceblue;} /*下拉带单鼠标停留颜色*/
+				#menu li ul {list-style:none;padding:10px 5px;margin:0;}/*下拉菜单边框大小*/
+				#menu li ul li {font-size:12px;line-height:32px;position:relative;padding:0;margin:0;float:none;text-align:center;}/*下拉菜单文字样式*/
+				#menu li ul li:hover {border:none;padding:0;margin:0;}/*鼠标停留下拉菜单样式*/
+				.containerfirst{width:100%;background-color:#949494;margin:0 auto;text-align:center;top: 0px;z-index: 9999;position: absolute;margin-left: 0;}
+					/*下拉菜单样式结束！！！！！！*/
+            
+            h1{font-size:75px;letter-spacing:30px;font-family: "幼圆"; position: absolute;left:200px;top:80px;color:aliceblue}
+				.secondtwo{width:380px;height:265px;background-color:#ECEBEB;position: relative;left: 930px; top:150px;opacity:0.8;}/*透明盒子设置*/
+				p{padding:16px ;line-height: 23px;text-align:center;position: relative;right: 10px;}
+             
+            
+           .last_img{width:2500px;height:249px;align:center;background-color:aliceblue;overflow-y:scroll;position:relative;left:10px;top:200px;opacity:8;white-space: nowrap;float: left/* 往左浮动 */}/*关于十张图片的板块设计*/
+                #main li {float:left;width:340px;height:2px }/*设置图片间距*/
+            .last_img a:hover{cursor:pointer;}/*设置光标样式使用手的形状*/
+            .last_img a span{display:none;cursor:pointer;text-align:center;color:#FFFFFF;line-height:20px;padding:10px 0;/*设置灰色框框长度*/font-weight:bold;}/*触碰图片显示的文字样式*/
+            .last_img a:hover span{width:340px;background:#000;display:inline-block;position:relative;bottom:20px;left:15px;filter:alpha(opacity=50)/*这个是调透明度的*/;-moz-opacity:0.8;opacity:0.8;align:center;}
+             /*触碰图片显示的文本框样式*/
